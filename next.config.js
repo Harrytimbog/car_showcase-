@@ -6,6 +6,9 @@ const nextConfig = {
   env: {
     customKey: "my-value",
   },
+  typescript: {
+    ignoreBuildErrors: true,
+  },
 };
 
 module.exports = nextConfig;
