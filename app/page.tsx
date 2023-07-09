@@ -25,6 +25,7 @@ export default function Home() {
   // fetch cars
 
   const getCars = async () => {
+    // console.log(fuel, year, limit, manufacturer, model);
     setLoading(true);
     try {
       const result = await fetchCars({
